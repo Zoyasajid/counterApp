@@ -1,12 +1,40 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282c34;
+  justify-content: center;
+  height: 100vh;
 }
-
+.counterapp{
+  background-color: #55688c;
+  /* background-color: #191c37; */
+  height: 250px;
+  padding:20px ;
+  border-radius: 10px;
+  width: 30%;
+  padding-top: 2px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.countTotal{
+  font-size: 55px;
+}
+.counterFlex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.counterIcon{
+  background-color: rgb(17, 24, 46);
+  border: none;
+  height: 40px;
+  width: 66px;
+  color: white;
+  font-size: 18px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
